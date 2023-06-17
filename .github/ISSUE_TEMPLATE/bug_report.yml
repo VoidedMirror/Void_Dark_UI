@@ -1,0 +1,29 @@
+name: Bug Report
+description: Report a bug in the resourcepack 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To fix this bug as fast as possible, we need some information.
+  - type: input
+    id: pack
+    attributes:
+      label: Pack
+      description: "Please provide the version of the resourcepack you found the bug in."
+      placeholder: "Void Dark UI - 1.20 - Vanilla v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug in detail. (Where did you noticed the bug? What UI element(s) are affected by this bug? Are you using a specific modpack?)
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Behavior
+      description: Describe the expected result
+    validations:
+      required: false
