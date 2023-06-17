@@ -1,0 +1,32 @@
+name: Feature Request
+description: Request a feature to be added / change for the resourcepack
+body:
+  - type: markdown
+    attributes:
+      value: |
+        When requesting features keep in mind this pack is intended to be a simple, clean, and easy to use resourcepack.
+        
+        ---
+        
+        To address this feature request as fast as possible, we need some information.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature you would like to add / change?
+    validations:
+      required: true
+  - type: textarea
+    id: rational
+    attributes:
+      label: Rational
+      description: Why do you think this feature should be added / changed?
+    validations:
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Are there any examples or references you can include that will help with adding this feature?
+    validations:
+      required: false
