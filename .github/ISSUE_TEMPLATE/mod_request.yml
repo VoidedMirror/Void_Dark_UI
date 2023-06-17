@@ -1,0 +1,42 @@
+name: Mod Request
+description: Request a mod to be added 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before requesting a mod, please check that the mod is not already in the mod_compat_list.txt file for the pack you are using. 
+        
+        ---
+        
+        To add this mod as fast as possible, we need some information.
+  - type: input
+    id: mcversion
+    attributes:
+      label: Minecraft Version
+      description: "Please provide the Minecraft version of the mod you want to add."
+      placeholder: "1.20"
+    validations:
+      required: true  
+  - type: input
+    id: mod
+    attributes:
+      label: Mod
+      description: "Please provide the name of the mod you want added."
+      placeholder: "Quark"
+    validations:
+      required: true
+  - type: input
+    id: mod_link
+    attributes:
+      label: Mod Link
+      description: "Please provide a link to the site used to download the requested mod"
+      placeholder: "curseforge, modrinth, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Is there any other information you think is needed to add the mod?
+    validations:
+      required: false
