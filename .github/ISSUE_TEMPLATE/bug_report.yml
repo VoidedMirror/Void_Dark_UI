@@ -10,7 +10,7 @@ body:
     attributes:
       label: Pack
       description: "Please provide the version of the resourcepack you found the bug in."
-      placeholder: "Void Dark UI - 1.20 - Vanilla v1.0.0"
+      placeholder: "e.g. Void Dark UI - 1.20 - Vanilla v1.0.0"
     validations:
       required: true
   - type: textarea
