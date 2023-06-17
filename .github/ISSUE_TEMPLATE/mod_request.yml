@@ -10,14 +10,6 @@ body:
         
         To add this mod as fast as possible, we need some information.
   - type: input
-    id: mcversion
-    attributes:
-      label: Minecraft Version
-      description: "Please provide the Minecraft version of the mod you want to add."
-      placeholder: "1.20"
-    validations:
-      required: true  
-  - type: input
     id: mod
     attributes:
       label: Mod
@@ -33,6 +25,14 @@ body:
       placeholder: "curseforge, modrinth, etc."
     validations:
       required: false
+  - type: input
+    id: mcversion
+    attributes:
+      label: Minecraft Version
+      description: "Please provide the Minecraft version of the mod you want to add."
+      placeholder: "1.20"
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
