@@ -7,6 +7,7 @@
 
 ## Links
 Curseforge page: https://www.curseforge.com/minecraft/texture-packs/void-dark-ui
+
 Modrinth page: https://modrinth.com/resourcepack/void-dark-ui
 
 If you've found a bug, please fill out a [bug report](https://github.com/VoidedMirror/Void_Dark_UI/issues/new?assignees=&labels=&projects=&template=bug_report.yml)
